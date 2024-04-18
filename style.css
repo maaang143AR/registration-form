@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.navbar{
+    height: 18vh;
+    background-color:rgba(0, 191, 255, 0.852);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.nav-content span{
+    color: burlywood;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.form-heading{
+    background-color:  rgba(0, 0, 0, 0.189);
+    
+    text-align:left;
+    font-size: larger;
+    padding-left: 200px;
+    
+    
+}
+.form-content{
+    display: flex;
+    justify-content:flex-start;
+    background: url("training.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.500);
+    height: 100%;
+    width: 50vw;
+    border: 2px solid black;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: black;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.decoration{
+    height: 20px;
+    padding: 14px 0px;
+    padding-left: 2px;
+    width: 50%;
+    
+    border: none;
+    /* border-bottom: 1px dotted black; */
+}
+.decoration:hover{
+    border: 1px solid burlywood;
+}
+.btn{
+    width: 20%;
+    height: 29px;
+    background-color:rgba(0, 191, 255, 0.852);
+    border-radius: 10px;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgba(0, 191, 255, 0.852);
+}
